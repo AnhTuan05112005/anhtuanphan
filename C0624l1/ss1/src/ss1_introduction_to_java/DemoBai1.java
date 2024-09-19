@@ -14,9 +14,23 @@ public class DemoBai1 {
 //        console.log(name);
 
         //tương tác với người dùng bằng ngôn ngữ java
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập tên của bạn : ");
-        String name=sc.nextLine();
-        System.out.println(name);
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("Nhập tên của bạn vào đây : ");
+//        String name = sc.nextLine();
+//        System.out.println(name);
+
+
+        // ==:đối với nguyên thủy thì so sánh giá trị .
+        // ==:đối với đối tượng thì so sánh về địa chỉ ô nhớ .
+
+
+        //VD:
+//        int num1=5;
+//        int num2=5;
+//        System.out.println(num1 == num2);
+
+        String str1="Hello";
+        String str2="World";
+        System.out.println(str1.equals(str2));
     }
 }
