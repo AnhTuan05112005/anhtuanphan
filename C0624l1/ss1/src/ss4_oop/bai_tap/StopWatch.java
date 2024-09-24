@@ -27,5 +27,4 @@ public class StopWatch {
     public int getElapsedTime() {
         return ((endTime.getHour()-startTime.getHour())*3600 + (endTime.getMinute()-startTime.getMinute())*60 + (endTime.getSecond()-startTime.getSecond())*1000);
     }
-    
 }
